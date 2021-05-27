@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Flávia Gonçalves Chaves`,
+    description: `Fonoaudióloga. Ajudo crianças com dificuldades na comunicação.`,
+    author: ``,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-resolve-src`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -25,12 +27,21 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `roboto\:400,500,700`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
