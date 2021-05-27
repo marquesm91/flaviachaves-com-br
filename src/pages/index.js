@@ -11,7 +11,7 @@ import Podcast from 'modules/podcast';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Início" />
+    <SEO title="Flávia Chaves" />
     <Header />
     <Banner />
     <Podcast />

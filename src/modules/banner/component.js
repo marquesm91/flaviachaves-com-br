@@ -6,7 +6,7 @@ import * as styles from './styles.module.scss';
 function Banner() {
   return (
     <>
-      <div className={styles.bannerContainer}>
+      <div className={styles.bannerContainer} style={{ marginTop: '-5px' }}>
         {/* <p>Flávia Chaves</p>
         <p>Fonoaudióloga</p> */}
         {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -17,14 +17,17 @@ function Banner() {
         ></path>
       </svg> */}
       </div>
+      <div style={{ marginTop: '-5px' }}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+          <path
+            fill="#d7c1c1"
+            fill-opacity="1"
+            d="M0,128L80,117.3C160,107,320,85,480,96C640,107,800,149,960,149.3C1120,149,1280,107,1360,85.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
-        <path
-          fill="#d7c1c1"
-          fill-opacity="1"
-          d="M0,128L80,117.3C160,107,320,85,480,96C640,107,800,149,960,149.3C1120,149,1280,107,1360,85.3L1440,64L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-        ></path>
-      </svg>
+      {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,192C96,160,192,96,288,106.7C384,117,480,203,576,208C672,213,768,139,864,101.3C960,64,1056,64,1152,85.3C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg> */}
     </>
   );
 }

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Flávia Gonçalves Chaves`,
-    description: `Fonoaudióloga. Ajudo crianças com dificuldades na comunicação.`,
+    title: `Flávia Chaves`,
+    description: `Sou fonoaudióloga e ajudo crianças com dificuldades na comunicação.`,
     author: ``,
   },
   plugins: [
