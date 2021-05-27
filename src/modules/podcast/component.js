@@ -4,9 +4,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 function Podcast() {
   return (
-    <div style={{ color: '#3e2828', margin: '1.5rem 2rem' }}>
+    <div style={{ color: '#3e2828', margin: '1rem 2.5rem' }}>
       <h2>Podcast — Espresso com a Fono</h2>
-      <div style={{ color: '#3e2828', maxWidth: 600, margin: '1.5em 0' }}>
+      <div style={{ color: '#3e2828', maxWidth: 600, margin: '1rem 0' }}>
         Aqui você tem a pausa pra um cafezinho com informações, curiosidades e
         <div
           style={{ display: 'inline-block', color: '#3e2828', fontWeight: 700 }}
